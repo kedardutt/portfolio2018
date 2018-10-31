@@ -1,0 +1,32 @@
+h1 {
+  font-size: 46px;
+  font-family: 'Krona One', sans-serif;
+  margin: 20px 0;
+  text-align: center;
+  line-height: 50px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+p {
+  font-family: 'Varela Round', sans-serif;
+  line-height: 22px;
+  font-size: 18px;
+  width: 500px;
+  margin: 10px 250px;
+  text-align: center;
+}
+
+.center {
+  width:500px;
+  margin: 20 auto;
+}
+
+main {
+  width:1000px;
+  margin: 20px auto

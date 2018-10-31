@@ -1,0 +1,72 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframeanimation</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Krona+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="css/homestyles.css" rel="stylesheet">
+    <link href="css/navstyles.css" rel="stylesheet">
+    <style media="screen">
+    div  {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: red;
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+    0%   {background-color: red; left:0px;}
+    50%  {background-color: yellow; left:200px;}
+    100% {background-color: red; left:0px;}
+}
+    </style>
+  </head>
+  <body>
+  <main>
+      <header>
+        <h1> Kedar Dutt<br> Animation2018</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="spriteanimation.html">sprite animation</a></li>
+            <li><a href="keyframeanimation.html">keyframeanimation</a></li>
+            <li><a href="translatetransform.html">translatetransform</a></li>
+            <li><a href="transition.html">transition</a></li>
+
+        </ul>
+      </nav>
+     </header>
+
+<div class="large-6cell">
+  <p>This animation technique gives you much more control over the animation and allows for the production of reuseable animations which you could build up into a library. As with transitions the same caveats regarding HTML5 friendly browsers and vendor prefixes apply</p>
+</div>
+<body>
+
+
+
+
+
+
+
+
+
+</main>
+
+    </body>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  <footer>
+
+  </footer>
+</html>

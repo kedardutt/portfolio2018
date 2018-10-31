@@ -1,0 +1,23 @@
+h1{
+  font-size: 46px;
+  font-family: 'Merriweather', serif;
+  margin: 20px 0;
+  text-align: center;
+  line-height: 50px;
+
+  }
+main{
+  width: 1000px;
+  margin: 20px auto;
+}
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 22px;
+  font-size:18px;
+  width: 400px;
+  margin: 20px 250px;
+
+ }
+ nav{
+   margin: 40px 0;
+ }

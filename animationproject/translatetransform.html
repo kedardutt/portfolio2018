@@ -1,0 +1,115 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Krona+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="css/homestyles.css" rel="stylesheet">
+    <link href="css/navstyles.css" rel="stylesheet">
+<style>
+    button {
+  background: orange;
+  color: white;
+  height: 50px;
+  width: 100px;
+  font-size: 1.2em;
+  transition: all 0.3s;
+  position: fixed;
+  top:300px;
+  left: 200px;
+  z-index: 1;
+}
+
+button:hover {
+  background: blue;
+}
+
+span.one {
+  background: red;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: -10;
+  transition: all 1s;
+}
+
+span.two {
+  background: red;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: -10;
+  transition: all 1s;
+}
+
+
+button:hover span.one {
+  left: 100px;
+  top: -50px;
+}
+
+button:hover span.two {
+  left: -120px;
+  top: 40px;
+  width: 200px;
+  height: 200px;
+}
+</style>
+  </head>
+  <body>
+  <main>
+      <header>
+        <h1> Kedar Dutt<br> Animation2018</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="spriteanimation.html">sprite animation</a></li>
+            <li><a href="keyframeanimation.html">keyframeanimation</a></li>
+            <li><a href="translatetransform.html">translatetransform</a></li>
+            <li><a href="transition.html">transition</a></li>
+
+        </ul>
+      </nav>
+     </header>
+
+<div class="large-6cell">
+  <p>
+A transformation is an effect that lets an element change shape, size and position.</p>
+</div>
+
+<div class="large-6cell">
+  <button>click me
+
+    <span class="one"></span>
+      <span class="two"></span>
+
+  </button>
+
+</div>
+
+
+</main>
+
+    </body>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  <footer>
+
+  </footer>
+</html>

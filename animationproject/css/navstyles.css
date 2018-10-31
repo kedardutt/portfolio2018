@@ -1,0 +1,49 @@
+nav{
+  margin: 40px 0;
+}
+
+
+
+nav ul{
+  list-style-type: none;
+}
+nav li{
+  display: inline;
+  font-size: 16px;
+  font-family: 'Krona One', sans-serif;
+}
+nav li a:link, nav li a:visited {
+text-decoration: none;
+background-color: rgb(229, 194, 66);
+color: rgb(38, 37, 35); /* // light black//*/
+border-radius: 2px;
+padding: 4px 8px;
+margin: 3px;
+}
+nav li a:hover{
+  background-color: rgb(237, 234, 230);
+
+
+}
+
+h1{
+  font-size: 46px;
+  font-family: 'Krona One', sans-serif;
+  margin: 20px 0;
+  text-align: center;
+  line-height: 50px;
+}
+
+img{
+  display: inline;
+}
+
+main {
+  width:1000px;
+  margin: 20px auto;
+}
+
+
+p{
+  font-family: 'Varela Round', sans-serif;
+}
