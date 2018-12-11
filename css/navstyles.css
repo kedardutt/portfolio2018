@@ -14,8 +14,8 @@ nav li{
 }
 nav li a:link, nav li a:visited {
 text-decoration: none;
-background-color: rgb(229, 194, 66);
-color: rgb(38, 37, 35); /* // light black//*/
+background-color: rgba(255, 0, 0, 0);
+color: rgb(38, 37, 35) /* // light black//*/
 border-radius: 2px;
 padding: 4px 8px;
 margin: 3px;
